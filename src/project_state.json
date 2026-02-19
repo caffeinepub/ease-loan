@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 7,
+  "summary": "Loan provider website for 'Ease Loan' with customer application form and admin dashboard to view applications",
+  "architectural_notes": [
+    "Company: Ease Loan",
+    "Contact: Phone 9327552378, Email easeloan45@gmail.com",
+    "Office: Clg More, Jora Mandir, Burdwan, 713101",
+    "Admin authentication required for dashboard access",
+    "Application form data must be stored and viewable in admin panel"
+  ],
+  "known_issues": [
+    "Login page not functioning properly"
+  ],
+  "isFixRequest": true,
+  "existing_features": [
+    {
+      "id": "feature-create-a-visually-attractive-homepage-for-ease-loan-that-displays-the-company-name-contact-information-phone-9327552378-email-easeloan45-gmail-com-office-clg-more-jora-mandir-burdwan-713101-and-navigation-to-the-loan-application-form",
+      "title": "Create a visually attractive homepage for Ease Loan that displays the company name, contact information (Phone: 9327552378, Email: easeloan45@gmail.com, Office: Clg More, Jora Mandir, Burdwan, 713101), and navigation to the loan application form",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-loan-application-form-that-collects-applicant-information-including-name-contact-details-loan-amount-requested-loan-purpose-employment-information-and-income-details",
+      "title": "Create a loan application form that collects applicant information including name, contact details, loan amount requested, loan purpose, employment information, and income details",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-admin-authentication-system-using-internet-identity-for-secure-admin-login",
+      "title": "Implement admin authentication system using Internet Identity for secure admin login",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-admin-dashboard-page-that-displays-all-submitted-loan-applications-in-a-table-or-list-format-showing-key-details-for-each-application",
+      "title": "Create admin dashboard page that displays all submitted loan applications in a table or list format showing key details for each application",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-professional-trustworthy-visual-design-theme-throughout-the-website-with-cohesive-colors-typography-and-layout-appropriate-for-a-financial-services-provider-ensuring-consistency-across-all-pages-including-homepage-application-form-and-admin-dashboard",
+      "title": "Apply a professional, trustworthy visual design theme throughout the website with cohesive colors, typography, and layout appropriate for a financial services provider, ensuring consistency across all pages including homepage, application form, and admin dashboard",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-diagnose-and-fix-the-internet-identity-login-functionality-issue-preventing-users-from-successfully-authenticating-on-the-login-page",
+      "title": "Diagnose and fix the Internet Identity login functionality issue preventing users from successfully authenticating on the login page",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-the-loginbutton-component-properly-handles-loading-states-error-conditions-and-successful-authentication-without-getting-stuck-or-failing-silently",
+      "title": "Ensure the LoginButton component properly handles loading states, error conditions, and successful authentication without getting stuck or failing silently",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-investigate-and-resolve-the-deployment-error-that-occurred-when-pushing-the-application-to-the-internet-computer-network",
+      "title": "Investigate and resolve the deployment error that occurred when pushing the application to the Internet Computer network",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create attractive loan provider website",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Add customer loan application form",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Add admin login system",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Create admin dashboard to view loan applications",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Implement backend data model and storage for loan applications with fields for applicant name, contact information, loan amount, loan purpose, employment details, income, application date, and application status",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Create backend API endpoint to submit new loan applications from the frontend form",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Implement backend API endpoint to retrieve all loan applications for display in the admin dashboard, restricted to authenticated admin principals only",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-13",
+      "summary": "Verify that the AuthClient initialization in useInternetIdentity hook is properly configured with correct Internet Identity provider URL and authentication settings",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-15",
+      "summary": "Verify that the backend main.mo actor compiles without syntax errors or type mismatches",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-16",
+      "summary": "Ensure frontend build process completes successfully with all TypeScript files compiling without errors",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-17",
+      "summary": "Validate that dfx.json configuration is correct with proper canister definitions and build settings",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Ease Loan",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
